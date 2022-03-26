@@ -1,0 +1,4 @@
+i=65
+While i<90:
+ Print (chr(i))
+ I+=1
