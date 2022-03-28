@@ -1,0 +1,10 @@
+a=[12,17,28,15,90]
+odd=[]
+even[]
+for i in a:
+  if i%2==0:
+    even+=[i]
+  else:
+    odd+=[i]
+print(odd)
+print(even)
