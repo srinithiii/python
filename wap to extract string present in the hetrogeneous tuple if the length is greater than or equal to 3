@@ -1,0 +1,6 @@
+a=(3,9.4,3+4j,True,'python',(1,2),'hai','hello')
+res=()
+for i in a:
+    if type(i)==str and len(i)>=3:
+        res=res+(i,)
+print(res)        
