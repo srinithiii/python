@@ -1,0 +1,11 @@
+a=[2,1,4,6,5,7]
+odd=[]
+even=[]
+for i in a:
+    if i%2==0:
+        even+=[i]
+    else:
+        odd+=[i]
+print(even)
+print(odd)
+ 
