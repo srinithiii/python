@@ -1,0 +1,6 @@
+a=[2,0.2,True,3+4j,'hai',[1,2,3],(1,2)]
+res=[]
+for i in a:
+    if type(i)not in(int,float,bool,complex):
+        res=res+[len(i)]
+print(res)        
