@@ -1,0 +1,5 @@
+a=['good','rose','hai']
+res={}
+for i in a:
+   res[i]=len(i)
+print(res)    
