@@ -1,0 +1,7 @@
+a=[2,4,3.4,True,'hi',[1,2]]
+res=[]
+for i in a:
+    if type(i)==int:
+        b=i**2
+        res=res+[b]
+print(res)        
