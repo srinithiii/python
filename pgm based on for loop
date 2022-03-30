@@ -1,0 +1,10 @@
+n=[10,'hai',50,[1,2],30,(4,5),10]
+res=[]
+sum=0
+for i in n:
+ if type(i)==int:
+     res=res+[i]
+     sum=sum+i
+     
+print(sum)     
+ 
