@@ -1,0 +1,6 @@
+st='kavi Nithi'
+res=0
+for i in  range(len(st)):
+ if i%2==1:
+   res=res+ord(st[i])
+print(res)    
