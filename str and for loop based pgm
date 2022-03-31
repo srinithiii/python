@@ -1,0 +1,9 @@
+a='python is very easy'
+res=a.split()
+print(res)
+rev=res[::-1]
+print(rev)
+out={}
+for i in rev:
+    out[i[::-1]]=i
+print(out)    
