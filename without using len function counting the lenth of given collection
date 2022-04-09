@@ -1,0 +1,11 @@
+wap to print if the length of the given collection is even otherwise print false without using len function
+n=[1,2.2,True,'hai',(3,5),'hello']
+count=0
+for i in n:
+    count+=1
+if count%2==0:
+     print('even')
+else:
+        print('odd')
+print(count)
+    
