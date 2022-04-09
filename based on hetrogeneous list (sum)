@@ -1,0 +1,13 @@
+wap to print true if the sum of integer value is greater than 50 from the given hetrogeneous list collection if sum<50 print false,if equal print your name
+n=[1,2.2,True,'hai',(3,5),'hello',49]
+sum=0
+for i in n:
+    if type(i)==int:
+        sum=sum+i
+if sum<50:
+    print('False')
+elif sum>50:
+    print('True')
+else:
+   print('sri')
+        
