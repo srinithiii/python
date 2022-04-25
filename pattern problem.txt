@@ -1,0 +1,8 @@
+p=65
+q=121
+for i in range(0,5):
+    for j in range(0,5):
+         print(chr(p)+chr(q), end=' ')
+         p+=1
+         q-=1
+    print()         
