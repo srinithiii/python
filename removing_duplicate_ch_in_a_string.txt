@@ -1,0 +1,6 @@
+n=input('enter the input  ')
+out=''
+for i in n:
+    if i not in out:
+        out=out+i
+print(out)        
