@@ -1,0 +1,11 @@
+a=input('enter the input  ')
+b=input('enter the input  ')
+c=input('enter the input  ')
+st=a+b+c
+res=[]
+for i in  range(len(st)):
+    for j in range(len(st)):
+        for k in range(len(st)):
+            if i!=k and k!=j and j!=i:
+                res+=[st[i]+st[j]+st[k]]
+print(res)                
